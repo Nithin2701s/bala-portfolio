@@ -1,0 +1,47 @@
+import Image from 'next/image';
+
+const About: React.FC = () => {
+    return (
+        <div id="about" className="flex flex-col md:flex-row justify-center items-center p-8 h-screen bg-port text-white space-y-12 md:space-y-0 md:space-x-12 mt-16">
+            <div className="flex flex-col items-center md:w-1/2 justify-center md:mt-16 space-y-8">
+                <h2 className="text-5xl font-extrabold mb-8 animate-fade-in">ABOUT</h2>
+                <img
+                    src="./About.jpg"
+                    alt="Balavardhan"
+                    className="rounded-full w-80 h-80 md:w-96 md:h-96 object-cover shadow-2xl transition-transform duration-500 transform hover:scale-105"
+                />
+            </div>
+            <div className="w-full space-y-12 mt-16">
+                <div className="flex items-center space-x-6 p-6 bg-black rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl animate-fade-in">
+                    <div className="relative w-20 h-20">
+                        <img src="./front.jpg" alt="Frontend Developer" className="rounded-full w-full h-full object-cover shadow-md" />
+                    </div>
+                    <div>
+                        <h3 className="text-3xl font-semibold">Frontend Developer</h3>
+                        <p className="text-lg">I'm a frontend developer with experience in building responsive and optimized sites.</p>
+                    </div>
+                </div>
+                <div className="flex items-center space-x-6 p-6 bg-black rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl animate-fade-in">
+                    <div className="relative w-20 h-20">
+                        <img src="./backend.jpg" className="rounded-full w-full h-full object-cover shadow-md" />
+                    </div>
+                    <div>
+                        <h3 className="text-3xl font-semibold">Backend Developer</h3>
+                        <p className="text-lg">I have experience developing fast and optimized back-end systems and APIs.</p>
+                    </div>
+                </div>
+                <div className="flex items-center space-x-6 p-6 bg-black rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl animate-fade-in">
+                    <div className="relative w-20 h-20">
+                        <img src="./UI.jpg" className="rounded-full w-full h-full object-cover shadow-md" />
+                    </div>
+                    <div>
+                        <h3 className="text-3xl font-semibold">UI Designer</h3>
+                        <p className="text-lg">I have designed multiple landing pages and have created design systems as well.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default About;
