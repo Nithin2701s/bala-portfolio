@@ -18,7 +18,7 @@ const About: React.FC = () => {
                     </div>
                     <div>
                         <h3 className="text-3xl font-semibold">Frontend Developer</h3>
-                        <p className="text-lg">I'm a frontend developer with experience in building responsive and optimized sites.</p>
+                        <p className="text-lg">I&apos;m a frontend developer with experience in building responsive and optimized sites.</p>
                     </div>
                 </div>
                 <div className="flex items-center space-x-6 p-6 bg-black rounded-lg shadow-lg transform transition-transform duration-500 hover:scale-105 hover:shadow-2xl animate-fade-in">
