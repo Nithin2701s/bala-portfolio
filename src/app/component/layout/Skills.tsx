@@ -1,5 +1,7 @@
 // components/Skills.tsx
 
+import Image from "next/image";
+
 const Skills = () => {
   return (
       <div id="skills" className="flex justify-center items-center p-8 min-h-screen bg-port text-white">
@@ -16,7 +18,7 @@ const Skills = () => {
                       { src: "./images.png", alt: "Firebase", label: "Firebase" },
                   ].map((skill) => (
                       <div key={skill.label} className="flex flex-col items-center transform transition duration-500 hover:scale-110">
-                          <img
+                          <Image
                               src={skill.src}
                               alt={skill.alt}
                               className="w-24 h-24 mb-2 shadow-lg rounded-full hover:shadow-2xl"

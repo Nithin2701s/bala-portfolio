@@ -1,5 +1,7 @@
 // components/Contact.tsx
 
+import Image from "next/image";
+
 const Contact = () => {
   return (
     <div id="contact" className="flex flex-col justify-center items-center p-4 min-h-screen bg-port text-white">
@@ -11,7 +13,7 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="transform transition duration-500 hover:scale-125"
           >
-            <img src="./github.png" alt="GitHub" className="w-20 h-20 rounded-full" />
+            <Image src="./github.png" alt="GitHub" className="w-20 h-20 rounded-full" ></Image>
           </a>
           <a
             href="https://www.linkedin.com/in/balavardhan-reddy-08b51b261"
@@ -19,13 +21,13 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="transform transition duration-500 hover:scale-125"
           >
-            <img src="./linkedin.png" alt="LinkedIn" className="w-20 h-20 rounded-full" />
+            <Image src="./linkedin.png" alt="LinkedIn" className="w-20 h-20 rounded-full"/>
           </a>
           <a
             href="mailto:balavardhanreddy03@gmail.com"
             className="transform transition duration-500 hover:scale-125"
           >
-            <img src="./email.png" alt="Email" className="w-20 h-20 rounded-full" />
+            <Image src="./email.png" alt="Email" className="w-20 h-20 rounded-full" />
           </a>
         </div>
         <form

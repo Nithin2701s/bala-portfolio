@@ -1,5 +1,7 @@
 // components/Projects.tsx
 
+import Image from "next/image";
+
 const Projects = () => {
     return (
         <div id="projects" className="flex flex-col justify-center items-center p-4 min-h-screen bg-port text-white">
@@ -35,7 +37,7 @@ const Projects = () => {
                     },
                 ].map((project, index) => (
                     <div key={index} className="bg-blue p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl w-72 h-70">
-                        <img src={project.imageSrc} alt={project.title} className="w-full h-40 object-cover rounded-t-lg mb-2" />
+                        <Image src={project.imageSrc} alt={project.title} className="w-full h-40 object-cover rounded-t-lg mb-2" />
                         <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
                         <p className="text-base mb-4">{project.description}</p>
                         <div className="flex flex-wrap gap-2 mb-4">
