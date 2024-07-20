@@ -5,10 +5,10 @@ function Hero() {
         <div id="Hero" className="flex justify-center items-center p-4 h-screen bg-port text-white">
             <div className="md:w-1/2 text-center md:text-left ml-20">
                 <h1 className="text-7xl font-bold">
-                    Hi, I'm <span className="text-black-500">Balavardhan</span>
+                    Hi, I&apos;m <span className="text-black-500">Balavardhan</span>
                 </h1>
                 <p className="mt-4 text-3xl">
-                    I'm proficient in both front-end and back-end development, with experience in React and NodeJS. Feel free to reach out if you'd like to discuss further!
+                    I&apos;m proficient in both front-end and back-end development, with experience in React and NodeJS. Feel free to reach out if you&apos;d like to discuss further!
                 </p>
                 <a href="#contact" className="mt-10 inline-block px-6 py-3 bg-blue text-white font-semibold rounded-full hover:bg-blue transition duration-300">
                     Contact Me
