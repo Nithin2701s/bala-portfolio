@@ -23,7 +23,7 @@ function Hero() {
             </div> */}
             <div className="md:w-1/2 flex justify-center mt-10 md:mt-0">
                 <Image
-                    src="./Balu.jpg"
+                    src="/Balu.jpg"
                     alt="Balavardhan"
                     className="rounded-full w-80 h-80 md:w-96 md:h-96 object-cover"
                 />

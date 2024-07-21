@@ -8,14 +8,14 @@ const Skills = () => {
           <div className="flex flex-wrap justify-center md:justify-between items-start w-full max-w-7xl space-y-12 md:space-y-0">
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-20 gap-y-20">
                   {[
-                      { src: "./html.png", alt: "HTML", label: "HTML" },
-                      { src: "./css.png", alt: "CSS", label: "CSS" },
-                      { src: "./javascript.png", alt: "JavaScript", label: "JavaScript" },
-                      { src: "./react.png", alt: "React", label: "React" },
-                      { src: "./node.png", alt: "Node", label: "Node" },
-                      { src: "./mongodb.png", alt: "MongoDB", label: "MongoDB" },
-                      { src: "./figma.png", alt: "Figma", label: "Figma" },
-                      { src: "./images.png", alt: "Firebase", label: "Firebase" },
+                      { src: "/html.png", alt: "HTML", label: "HTML" },
+                      { src: "/css.png", alt: "CSS", label: "CSS" },
+                      { src: "/javascript.png", alt: "JavaScript", label: "JavaScript" },
+                      { src: "/react.png", alt: "React", label: "React" },
+                      { src: "/node.png", alt: "Node", label: "Node" },
+                      { src: "/mongodb.png", alt: "MongoDB", label: "MongoDB" },
+                      { src: "/figma.png", alt: "Figma", label: "Figma" },
+                      { src: "/images.png", alt: "Firebase", label: "Firebase" },
                   ].map((skill) => (
                       <div key={skill.label} className="flex flex-col items-center transform transition duration-500 hover:scale-110">
                           <Image

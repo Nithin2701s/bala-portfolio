@@ -8,28 +8,28 @@ const Projects = () => {
             <div className="flex flex-wrap justify-center gap-8 w-full max-w-7xl">
                 {[
                     {
-                        imageSrc: "./healthnexus.png",
+                        imageSrc: "/healthnexus.png",
                         title: "HealthNexus",
                         description: "This a Ecommers-project online Medicine app Full stack project",
                         techStack: ["React", "Express", "Node", "Redux"],
                         demoLink: "https://health-nexus.vercel.app",
                     },
                     {
-                        imageSrc: "./truecaller.png",
+                        imageSrc: "/truecaller.png",
                         title: "Truecaller-Web3.0",
                         description: "This Project is a Truecaller app using solidity, Block-chain",
                         techStack: ["React", "Solidity", "Block-chain","Meta-Mask"],
                         demoLink: "https://true-caller-96bef.web.app",
                     },
                     {
-                        imageSrc: "./olympics.png",
+                        imageSrc: "/olympics.png",
                         title: "Olympic System",
                         description: "Object-oriented programming Java application based project",
                         techStack: ["Java", "MySQL","Object-Oriented-programme"],
                         demoLink: "https://github.com/Balavardhanreddy5872/oops",
                     },
                     {
-                        imageSrc: "./Portfolio.jpg",
+                        imageSrc: "/Portfolio.jpg",
                         title: "Portfolio",
                         description: "Portfolio of academic and professional materials.",
                         techStack: ["NextJS", "TypeScript","Tailwindcss"],
