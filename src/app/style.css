@@ -111,6 +111,12 @@
         margin-top: 10rem; 
         flex-direction: column;
     }
-
+   .contact-form {
+    width: 25rem;
+   }
+   .contact-icons a img{
+     width: 3rem;
+     height: 3rem;
+   }
 }
 

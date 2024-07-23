@@ -1,12 +1,12 @@
 // components/Contact.tsx
 
 import Image from "next/image";
-
+import '../../style.css'
 const Contact = () => {
   return (
     <div id="contact" className="flex flex-col justify-center items-center p-4 min-h-screen bg-port text-white">
       <div className="flex flex-col items-center w-full max-w-3xl mt-16">
-        <div className="flex space-x-6 mb-8">
+        <div className="contact-icons flex space-x-6 mb-8">
           <a
             href="https://github.com/Balavardhanreddy5872"
             target="_blank"
@@ -34,7 +34,7 @@ const Contact = () => {
           </a>
         </div>
         <form
-          className="w-80 bg-blue p-8 rounded-lg shadow-lg transform transition duration-500"
+          className="contact-form w-80 bg-blue p-8 rounded-lg shadow-lg transform transition duration-500"
           action="https://formsubmit.co/balavardhanreddy03@gmail.com"
           method="POST"
         >
