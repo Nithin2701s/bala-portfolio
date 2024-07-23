@@ -18,7 +18,7 @@ function Navbar() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
         </svg>
       </button>
-      <div className={`navbar md:flex space-x-8 text-lg ${isOpen ? 'block' : 'hidden'} md:block`}>
+      <div className={`navbar md:flex space-x-8 text-lg ${isOpen ? 'block show' : 'hidden'} md:block`}>
         <a href="#about" className="px-4 py-2 hover:text-yellow-500 transition duration-300">
           About
         </a>
