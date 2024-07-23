@@ -19,6 +19,7 @@
 body {
   color: rgb(var(--foreground-rgb));
   overflow: hidden;
+  background:rgb(4 21 45 / var(--tw-bg-opacity));
 }
 
 
@@ -42,3 +43,5 @@ body {
 .animate-fade-in {
   animation: fadeIn 1s ease-out;
 }
+
+

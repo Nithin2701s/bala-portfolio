@@ -13,7 +13,8 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="transform transition duration-500 hover:scale-125"
           >
-            <Image src="/github.png" alt="GitHub" className="w-20 h-20 rounded-full" ></Image>
+            <Image src="/github.png" alt="GitHub" className="w-20 h-20 rounded-full" width={400}
+                              height={300} ></Image>
           </a>
           <a
             href="https://www.linkedin.com/in/balavardhan-reddy-08b51b261"
@@ -21,13 +22,15 @@ const Contact = () => {
             rel="noopener noreferrer"
             className="transform transition duration-500 hover:scale-125"
           >
-            <Image src="/linkedin.png" alt="LinkedIn" className="w-20 h-20 rounded-full"/>
+            <Image src="/linkedin.png" alt="LinkedIn" className="w-20 h-20 rounded-full" width={400}
+                              height={300}/>
           </a>
           <a
             href="mailto:balavardhanreddy03@gmail.com"
             className="transform transition duration-500 hover:scale-125"
           >
-            <Image src="/email.png" alt="Email" className="w-20 h-20 rounded-full" />
+            <Image src="/email.png" alt="Email" className="w-20 h-20 rounded-full" width={400}
+                              height={300} />
           </a>
         </div>
         <form

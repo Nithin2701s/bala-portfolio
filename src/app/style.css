@@ -1,0 +1,116 @@
+
+.hamburger {
+  display: none;
+}
+.project-cont {
+  overflow-x: scroll;
+  overflow-y:hidden;
+  scrollbar-width: none;
+}
+
+@media (max-width:1060px){
+.hero-content h1{
+    font-size: 2rem;
+}
+
+.hero-content p { 
+   font-size: 1.3rem;
+}
+}
+
+@media (max-width:870px){
+   .hero-section {
+     flex-direction: column;
+     overflow-y: scroll;
+     scrollbar-width: none;
+   }
+   .hero-img img {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+   }
+   .hero-content {
+    order: 2;
+   }
+   .hero-content p {
+    font-size: 1rem;
+   }
+   .navbar {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #1e0707;
+    width: 100%;
+    padding-right: 4rem;
+    text-align: center;
+    gap: 0;
+    display: none; /* Hide the menu by default */
+  }
+
+  .navbar.show {
+    display: flex; /* Show the menu when toggled */
+  }
+
+  .hamburger {
+    display: block; /* Show the hamburger menu on small screens */
+  }
+
+  .dropdownMenu {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width : 768px) {
+    .about {
+        overflow-y: scroll;
+        margin-top: 5rem;
+        scrollbar-width: none;
+    }
+    .about-img {
+        margin-top: 15rem;
+    }
+    .about-img h2 {
+        font-size: 2rem;
+    }
+    .about-img img{
+       width: 7rem;
+       height: 7rem;
+    }
+    .about-h3 {
+        font-size: 1.5rem;
+    }
+    .about-p {
+        font-size: .9rem;
+    }
+    .skill-cont {
+        margin-top: 5rem;
+        overflow-y: scroll;
+        scrollbar-width: none;
+        padding-bottom: 10rem;
+    }
+    .skills {
+      overflow-y: scroll;
+      scrollbar-width: none;
+    }
+    .skills img {
+      width: 3rem;
+      height: 3rem;
+    }
+    /* .experience {
+      overflow-y: scroll;
+      scrollbar-width: none;
+    } */
+    .project-cont {
+        overflow-y: scroll;
+        scrollbar-width: none; 
+        margin-top: 10rem; 
+        flex-direction: column;
+    }
+
+}
+
