@@ -3,8 +3,9 @@ import '../../style.css';
 
 const Skills = () => {
   return (
-    <div id="skills" className="flex justify-center items-center p-8 min-h-screen bg-port text-white">
-      <div className="skill-cont flex flex-wrap justify-center md:justify-between items-start w-full max-w-7xl space-y-12 md:space-y-0 max-h-screen">
+    <div id="skills" className="flex flex-col justify-center items-center p-8 min-h-screen bg-port text-white mt-8">
+      <h2 className="text-4xl font-bold mb-6">My Skills</h2>
+      <div className="skill-cont flex flex-wrap justify-center md:justify-between items-start w-full max-w-7xl space-y-12 md:space-y-0 max-h-screen mt-8">
         <div className="skills grid grid-cols-2 sm:grid-cols-4 gap-x-20 gap-y-20 overflow-auto max-h-[60vh] md:max-h-full">
           {[
             { src: "/html.png", alt: "HTML", label: "HTML" },
@@ -29,7 +30,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="experience md:mt-16 md:ml-8 w-full over-flow-auto md:w-auto space-y-8">
+        <div className="experience md:mt-16 md:ml-8 w-full overflow-auto md:w-auto space-y-8">
           <div className="bg-blue p-6 rounded-lg shadow-lg transform transition duration-500 hover:scale-105 hover:shadow-2xl text-white">
             <h3 className="text-xl font-bold">Hero Campus Challenge, Season 9</h3>
             <p className="text-sm mb-2">Sept, 2023 -</p>

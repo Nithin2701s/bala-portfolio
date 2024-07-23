@@ -18,10 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  overflow: hidden;
-  background:rgb(4 21 45 / var(--tw-bg-opacity));
+  background: rgb(4 21 45 / var(--tw-bg-opacity));
+  background-color: #1e3a8a;
 }
-
 
 @layer utilities {
   .text-balance {
@@ -31,12 +30,12 @@ body {
 
 @keyframes fadeIn {
   0% {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   100% {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -44,4 +43,11 @@ body {
   animation: fadeIn 1s ease-out;
 }
 
+/* Additional styling for the navbar toggle */
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
 
+.navbar.show {
+  display: block;
+}

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import '../../style.css'
 const About: React.FC = () => {
     return (
-        <div id="about" className="about flex flex-col md:flex-row justify-center items-center p-8 h-screen bg-port text-white space-y-12 md:space-y-0 md:space-x-12 mt-16">
+        <div id="about" className="about flex flex-col md:flex-row justify-center items-center p-8 h-screen bg-port text-white  md:space-y-0 md:space-x-12 mt-8">
             <div className="about-img flex flex-col items-center md:w-1/2 justify-center md:mt-16 space-y-8">
                 <h2 className="text-5xl font-extrabold mb-8 animate-fade-in">ABOUT</h2>
                 <Image

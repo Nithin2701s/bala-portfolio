@@ -2,6 +2,9 @@
 .hamburger {
   display: none;
 }
+.contact-form {
+  width: 100%;
+}
 .project-cont {
   overflow-x: scroll;
   overflow-y:hidden;
